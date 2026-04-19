@@ -50,13 +50,17 @@ cd backend
 npm install
 npm run start:dev
 ### 📱 Frontend
+```bash
 cd front_end
 npm install
 npx expo start
 ### 📦 Build APK
+```bash
 cd front_end
 eas build --platform android
 ### 👤 Auteur
+```bash
 Salma Alloun
 ### ⭐ Projet
+```bash
 👉 Application complète combinant tracking sportif + temps réel + notifications intelligentes

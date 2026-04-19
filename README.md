@@ -58,10 +58,6 @@ npx expo start
 📦 Build APK
 cd front_end
 eas build --platform android
-👤 Auteur
-
-Salma Alloun
 
 ⭐ Projet
-
 👉 Application complète combinant tracking sportif + temps réel + notifications intelligentes

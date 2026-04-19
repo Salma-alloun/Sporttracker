@@ -1,0 +1,30 @@
+import { StyleSheet } from 'react-native';
+import { COLORS} from './colors';
+
+export const styles = StyleSheet.create({
+  container: { flex: 1, backgroundColor: COLORS.background },
+  scroll: { paddingBottom: 40 },
+  header: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', paddingHorizontal: 20, paddingTop: 10, paddingBottom: 10 },
+  backBtn: { padding: 8 },
+  headerTitle: { fontSize: 18, fontWeight: '600', color: COLORS.text },
+  stepIndicator: { fontSize: 14, color: COLORS.primary },
+  progressBar: { height: 3, backgroundColor: COLORS.border, marginHorizontal: 20, borderRadius: 3, overflow: 'hidden' },
+  progressFill: { height: '100%', backgroundColor: COLORS.primary, borderRadius: 3 },
+  formContainer: { paddingHorizontal: 20, paddingTop: 24 },
+  errorBox: { flexDirection: 'row', alignItems: 'center', gap: 8, backgroundColor: '#FF3D6B20', padding: 12, borderRadius: 12, marginBottom: 20, borderWidth: 1, borderColor: COLORS.error },
+  errorText: { fontSize: 13, color: COLORS.error, flex: 1 },
+  stepTitle: { fontSize: 22, fontWeight: 'bold', color: COLORS.text, marginBottom: 8 },
+  stepSubtitle: { fontSize: 14, color: COLORS.muted, marginBottom: 20 },
+  inputWrapper: { flexDirection: 'row', alignItems: 'center', backgroundColor: COLORS.border, borderRadius: 12, paddingHorizontal: 16, marginBottom: 16, height: 50 },
+  inputIcon: { marginRight: 12 },
+  input: { flex: 1, color: COLORS.text, fontSize: 16 },
+  sportsGrid: { flexDirection: 'row', flexWrap: 'wrap', gap: 10, marginBottom: 20 },
+  sportChip: { paddingHorizontal: 16, paddingVertical: 10, borderRadius: 20, backgroundColor: COLORS.border },
+  sportChipActive: { backgroundColor: COLORS.primary },
+  sportChipText: { color: COLORS.muted },
+  sportChipTextActive: { color: '#fff' },
+  btn: { height: 50, borderRadius: 25, alignItems: 'center', justifyContent: 'center', flexDirection: 'row', gap: 8 },
+  btnText: { color: '#fff', fontSize: 16, fontWeight: '600' },
+  loginLink: { alignItems: 'center', marginTop: 24, paddingVertical: 12 },
+  loginLinkText: { color: COLORS.muted, fontSize: 14 },
+});

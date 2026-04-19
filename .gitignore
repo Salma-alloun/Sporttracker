@@ -1,0 +1,52 @@
+# Dépendances
+node_modules/
+.pnp/
+.pnp.js
+
+# Expo / React Native
+.expo/
+web-build/
+dist/
+
+# Environnement
+.env
+.env.local
+.env.development
+.env.production
+
+# Fichiers sensibles
+serviceAccountKey.json
+google-services.json
+*.p8
+*.p12
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Builds
+build/
+android/
+ios/
+
+# Backend
+backend/dist/
+backend/node_modules/
+
+# Frontend
+front_end/node_modules/
+front_end/.expo/
+front_end/web-build/

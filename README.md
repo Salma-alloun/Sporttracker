@@ -46,6 +46,7 @@ Application mobile de **suivi sportif en temps réel** avec géolocalisation, no
 
 
 🔧 Backend
+```bash
 cd backend
 npm install
 npm run start:dev

@@ -45,7 +45,7 @@ Application mobile de **suivi sportif en temps réel** avec géolocalisation, no
 ## ⚡ Installation rapide
 
 
-```bash
+🔧 Backend
 cd backend
 npm install
 npm run start:dev

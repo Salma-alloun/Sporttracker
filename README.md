@@ -49,18 +49,17 @@ Application mobile de **suivi sportif en temps réel** avec géolocalisation, no
 cd backend
 npm install
 npm run start:dev
-### 📱 Frontend
-```bash
+📱 Frontend
 cd front_end
 npm install
 npx expo start
-### 📦 Build APK
-```bash
+📦 Build APK
 cd front_end
 eas build --platform android
-### 👤 Auteur
-```bash
+👤 Auteur
+
 Salma Alloun
-### ⭐ Projet
-```bash
+
+⭐ Projet
+
 👉 Application complète combinant tracking sportif + temps réel + notifications intelligentes
